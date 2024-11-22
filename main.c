@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void reload() {
+    printf("Reload!\n");
+}
 void snipe() {
     printf("Snipe!\n");
 }
@@ -9,6 +12,7 @@ void fire() {
 }
 
 int main() {
+    reload();
     snipe();
     fire();
     return 0;
