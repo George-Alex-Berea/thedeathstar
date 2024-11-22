@@ -9,6 +9,7 @@ void fire() {
 }
 
 int main() {
+    snipe();
     fire();
     return 0;
 }
