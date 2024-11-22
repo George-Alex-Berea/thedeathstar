@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+void fire() {
+    printf("Fire!\n");
+}
+
 int main() {
-    printf("Hello, World!\n");
+    fire();
     return 0;
 }
